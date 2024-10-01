@@ -1,0 +1,38 @@
+.calendar-wrapper {
+  overflow-x: auto; /* 横スクロールを有効に */
+  white-space: nowrap; /* 要素を折り返さない */
+  margin: 20px 0; /* 上下の余白 */
+  border: 1px solid #ccc; /* ボーダーを追加してカレンダーを際立たせる */
+}
+
+.calendar {
+  display: flex; /* フレックスボックスを使用して横並びに */
+}
+
+.day {
+  width: 60px; /* 各日の幅を設定 */
+  height: 40px; /* 各日の高さ */
+  background-color: #f0f0f0; /* 背景色 */
+  border: 1px solid #ccc; /* 枠線 */
+  color: black; /* 文字の色を黒に設定 */
+  display: flex;
+  align-items: center;
+  justify-content: center; /* 中央揃え */
+  position: relative; /* 各日の位置を相対的にする */
+}
+
+.line-container {
+  height: 4px; /* 線の高さ */
+  position: absolute; /* 絶対位置に変更 */
+  bottom: -5px; /* 日付の下に線を表示 */
+}
+
+.line {
+  height: 100%;
+  background-color: orange; /* 予定の線の色をオレンジに */
+}
+
+.actual-line {
+  height: 100%;
+  background-color: green; /* 実績の線の色を緑に */
+}

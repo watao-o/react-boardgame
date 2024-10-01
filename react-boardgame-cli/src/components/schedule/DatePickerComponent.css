@@ -1,0 +1,15 @@
+.date-picker-row {
+  display: flex;
+  margin-bottom: 10px; /* 行間の余白 */
+}
+
+.date-picker-item {
+  display: flex;
+  flex-direction: column; /* ラベルと日付ピッカーを縦に配置 */
+  width: 200px; /* 横並びにするために幅を設定 */
+}
+
+label {
+  margin-bottom: 5px; /* ラベルと日付ピッカーの間の余白 */
+}
+
