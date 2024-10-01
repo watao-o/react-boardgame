@@ -5,6 +5,7 @@ import Home from './pages/Home'
 import Othello from './pages/Othello'
 import Metronome from './pages/Metronome'
 import Schedule from './pages/Schedule'
+import TheGame from './pages/TheGame'
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
           <Route path="/othello" element={<Othello />} />
           <Route path="/metronome" element={<Metronome />} />
           <Route path="/schedule" element={<Schedule />} />
+          <Route path="/thegame" element={<TheGame />} />
           <Route path="*" element={<h2>Not Found</h2>} />
         </Route>
       </Routes>

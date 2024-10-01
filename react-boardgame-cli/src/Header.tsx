@@ -9,6 +9,7 @@ const Header = () => {
         <Link to="/othello">Othello</Link>|
         <Link to="/metronome">Metronome</Link>|
         <Link to="/schedule">Schedule</Link>|
+        <Link to="/thegame">The-Game</Link>|
       </header>
     </>
   )
