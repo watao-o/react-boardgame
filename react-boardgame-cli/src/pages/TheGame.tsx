@@ -9,7 +9,7 @@ const Othello = () => {
       <Game />
       <ToastContainer
         position="top-right"
-        autoClose={1500} // 1.5秒後に自動で消える
+        autoClose={3000} // 1.5秒後に自動で消える
         hideProgressBar
         newestOnTop
         closeOnClick
